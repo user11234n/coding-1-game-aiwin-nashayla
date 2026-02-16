@@ -2,7 +2,7 @@
 
 Due date: N1: 3/5 :: L2: 3/6
 
-When you finish, add links here and submit one link:
+When you finish, add links here and submit one link to your project (github.com/<username>/<your_project>):
 * Final Code (1 per group)
 * Playtesting Video (1 per group)
 
