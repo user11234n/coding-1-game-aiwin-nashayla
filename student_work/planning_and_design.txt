@@ -33,5 +33,6 @@ Picking answers that align with what you feel
 Getting through all the answers
 Getting a personality 
 
+Board size: 10
 Icons:
-hello
+Scoring system: You win by finishing the game
