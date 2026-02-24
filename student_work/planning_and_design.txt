@@ -11,12 +11,26 @@ Part I: Planning & Design (15 pts)
 * Outline expansion ideas
 
 Game Idea:
-
+Horror personality quiz
 
 Game Rules:
+Three options, must pick one of the options 
+Answer honestly 
+Finish the game 
 
+Set-up:
+Set characters/personality type presets 
+10 questions, they get scarier as they go on 
+3 different personality types 
+Reach the end of the game and get a personality type 
 
 Major Game Elements:
-
+Main character that makes choices
+Obstacles: jumpscares that appear while trying to answer questions
 
 Gameplay Process:
+Picking answers that align with what you feel
+Getting through all the answers
+Getting a personality 
+
+Icons:
