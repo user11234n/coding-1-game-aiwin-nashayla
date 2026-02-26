@@ -27,6 +27,7 @@ Reach the end of the game and get a personality type
 Major Game Elements:
 Main character that makes choices
 Goal: reach the end of the game and get a "personality" 
+Icons and information appear when the player gets to the end
 
 Gameplay Process:
 Picking answers that align with what you feel
