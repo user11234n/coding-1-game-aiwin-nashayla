@@ -16,7 +16,8 @@ def draw_board(screen):
     curses.init_pair(1, curses.COLOR_WHITE, -1)
     screen.refresh()
     screen.getkey()  # pause so player can see board
-
+def welcome_screen():
+    print("Welcome to the personality quiz! Please answer honestly")
 # curses.wrapper(draw_board)
 
 print(game_data['game_elements']['toilet'])
