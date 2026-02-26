@@ -20,13 +20,13 @@ Finish the game
 
 Set-up:
 Set characters/personality type presets 
-10 questions, they get scarier as they go on 
+5 questions, they get scarier as they go on 
 3 different personality types 
 Reach the end of the game and get a personality type 
 
 Major Game Elements:
 Main character that makes choices
-Obstacles: jumpscares that appear while trying to answer questions
+Goal: reach the end of the game and get a "personality" 
 
 Gameplay Process:
 Picking answers that align with what you feel
@@ -35,7 +35,7 @@ Getting a personality
 
 Board size: 10
 Icons: When getting different personalities get different character icons and pictures that show up with the question
-Scoring system: You win by finishing the game
+Scoring system: You win by finishing the game, each option goes towards a different ending 
 1F69A(truck-kun got you)
 1F6BD(dysentary)
 1F3A2(final destination)
