@@ -1,5 +1,5 @@
 # Write your game here
-
+import curses
 game_data = { 
 'width':10,
 'height':10,
