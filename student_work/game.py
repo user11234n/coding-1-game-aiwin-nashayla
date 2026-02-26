@@ -13,9 +13,12 @@ game_data = {
     for y in range(game_data['height']):
         row = ""
         for x in range(game_data['width']):
-            # Player
-            if x == game_data['player']['x'] and y == game_data['player']['y']:
-                row += game_data['turtle']
+            # Truck icon
+            if x == game_data['truck'][''] and game_data['truck']['']:
+            # Toilet icon
+            if x == game_data['toilet'][''] and game_data['toilet']['']:
+            # Roller coaster icon
+            if x == game_data['rollercoaster'][''] and game_data['rollercoaster']['']:
             else:
                 row += game_data['empty']
         stdscr.addstr(y, 0, row, curses.color_pair(1))
