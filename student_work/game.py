@@ -9,8 +9,15 @@ game_data = {
     # Store board dimensions, player/enemy positions, score, energy, collectibles, and icons
 }
 
-def draw_board(screen): 
+ 
     # Print the board and all game elements using curses
+def draw_board(screen):
+    curses.start_color()
+    curses.use_default_colors()
+    curses.init_pair(1, curses.COLOR_WHITE, -1)
+    screen.refresh()
+    screen.getkey()  # pause so player can see board
 
+curses.wrapper(draw_board)
 
 # Good Luck!
