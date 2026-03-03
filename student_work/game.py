@@ -18,6 +18,11 @@ def draw_board(stdscr):
     screen.getkey()  # pause so player can see board
 def welcome_screen():
     print("Welcome to the personality quiz! Please answer honestly")
+def move_player(key):
+    x = game_data['player']['x']
+    y = game_data['player']['y']
+    new_x, new_y = x, y
+    key = key.lower()
 # curses.wrapper(draw_board)
 
 print(game_data['game_elements']['toilet'])
