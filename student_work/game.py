@@ -10,7 +10,7 @@ game_data = {
 }
 
     # Print the board and all game elements using curses
-def draw_board(screen):
+def draw_board(stdscr):
     curses.start_color()
     curses.use_default_colors()
     curses.init_pair(1, curses.COLOR_WHITE, -1)
