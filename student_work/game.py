@@ -21,8 +21,6 @@ def draw_board(stdscr):
     curses.start_color()
     curses.use_default_colors()
     curses.init_pair(1, curses.COLOR_WHITE, -1)
-    screen.refresh()
-    screen.getkey()  # pause so player can see board
 def welcome_screen():
     print("Welcome to the personality quiz! Please answer honestly")
 def move_player(key):
@@ -36,8 +34,29 @@ def move_player(key):
         new_y += 1    
     else:
         return
-# curses.wrapper(draw_board)
 
-print(game_data['game_elements']['toilet'])
+def main(stdscr):
+    curses.curs_set(0)
+    stdscr.nodelay(True)
+
+    draw_board(stdscr)
+
+    while True:
+        print("hello")
+        try:
+            key = stdscr.getkey()
+        except:
+            key = None
+
+        if key:
+            if key.lower() == "q":
+                break
+
+            move_player(key)
+            draw_board(stdscr)
+curses.wrapper(main)
+
+
+# print(game_data['game_elements']['toilet'])
 
 # Good Luck!
