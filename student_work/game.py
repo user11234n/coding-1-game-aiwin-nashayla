@@ -3,6 +3,7 @@ import curses
 game_data = { 
     'width':10,
     'height':10,
+    'player': {"x": 0, "y": 0},
     'game_elements': {'truck': "\U0001F69A",
     'toilet': "\U0001F6BD",
     'rollercoaster': "\U0001F3A2"},
