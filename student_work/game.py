@@ -17,12 +17,6 @@ for y in range(game_data['height']):
     for x in range(game_data['width']):
         if x == game_data['player']['x'] and y == game_data['player']['y']:
             row += game_data['game_elements']['demon kitty']
-def draw_board(stdscr):
-    curses.start_color()
-    curses.use_default_colors()
-    curses.init_pair(1, curses.COLOR_WHITE, -1)
-def welcome_screen():
-    print("Welcome to the personality quiz! Please answer honestly")
 def move_player(key):
     x = game_data['player']['x']
     y = game_data['player']['y']
@@ -34,6 +28,13 @@ def move_player(key):
         new_y += 1    
     else:
         return
+
+def draw_board(stdscr):
+    curses.start_color()
+    curses.use_default_colors()
+    curses.init_pair(1, curses.COLOR_WHITE, -1)
+def welcome_screen():
+    print("Welcome to the personality quiz! Please answer honestly")
 
 def main(stdscr):
     curses.curs_set(0)
