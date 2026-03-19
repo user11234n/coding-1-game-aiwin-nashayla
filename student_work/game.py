@@ -1,6 +1,6 @@
 import curses
-import locale  # Set locale for emoji support
-locale.setlocale(locale.LC_ALL, '')
+#import locale  # Set locale for emoji support
+#locale.setlocale(locale.LC_ALL, '')
 
 MAZE = [
     [1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
@@ -136,6 +136,4 @@ def main(stdscr):
     msg = "You Win!" if MAZE[p_y][p_x] == EXIT else "Game Over!"
     stdscr.addstr(0, 0, f"{msg}\nTotal Moves: {move_count}\nPress 'q' to quit.")
     while stdscr.getch() != ord('q'): pass
-
-if __name__ == "__main__":
-    curses.wrapper(main)
+curses.wrapper(main)
